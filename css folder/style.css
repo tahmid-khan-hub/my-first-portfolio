@@ -13,8 +13,16 @@
     color: rgb(253, 110, 10);
 }
 
+.color-second{
+    color:rgb(117, 117, 117) ;
+}
+
 .color{
     color: rgb(71, 71, 71);
+}
+
+.secondary-bg{
+    background-color: rgb(255, 248, 243);
 }
 
 .btn-color{
@@ -61,6 +69,17 @@ nav li a{
     /* color: rgb(71, 71, 71); */
 }
 
+.section-tittle{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+}
+
+.section-description{
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+}
+
 /* header */
 .heading{
     background-image: url('../portfolio-resources-main/images/developer.png') ,url('../portfolio-resources-main/images/header_bg.png');
@@ -83,11 +102,13 @@ nav li a{
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
+
 }
 
 .banner-tittle{
     font-weight: bold;
     font-size: 85px;
+
 }
 
 .button-group{
@@ -97,4 +118,55 @@ nav li a{
 
 .banner-profile-picture{
     width: 580px;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* about section style */
+.about{
+    border-radius: 10px;
+    padding: 131px 157px 131px 156px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .item-tittle{
+    color: rgb(117, 117, 117);
+} */
+
+.item-description{
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+/* skills styles */
+.skills{
+    text-align: center;
+    padding: 130px 115px 50px 116px;
+}
+
+.skills-tittle{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
 }
