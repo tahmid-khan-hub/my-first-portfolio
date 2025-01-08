@@ -170,3 +170,29 @@ main{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     background: rgb(255, 255, 255);
 }
+
+/* resume style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-description{
+    margin-right: 60px;
+}
+
+.experience-sub-tittle{
+    margin-top: -11px;
+}
+
+.resume-tittle{
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 100px;
+    font-size: 35px;
+}
+
+.resume-download{
+    text-align: center;
+    margin-top: 35px;
+}
